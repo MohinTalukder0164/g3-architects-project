@@ -1,5 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
+/* Shared styles */
 * {
     font-family: 'Work Sans', sans-serif;
+}
+
+.btn-primary {
+    width: 180px;
+    height: 64px;
+    border-radius: 8px;
+    border: 0;
+    background: #FF900E;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Header style hare */
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-titale {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424242;
+}
+
+/* Banner style hare */
+.banner-content {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-titale {
+    color: #131313;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.banner-description {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.banner-container img {
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 10px;
 }
